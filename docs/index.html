@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>rePaper: Dynamic Desktop</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+<!--
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" alt="Homepage">
+            </a>
+        </div>
+-->
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Features</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Screenshots</a></li>
+                    <!--<li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li> -->
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Download</a></li>
+                </ul>
+    
+                <p>awoo.git@gmail.com</p>
+    
+                <ul class="header-nav__social">
+					<li>
+						<a href="https://www.youtube.com/channel/UClep84ofxC41H8-R9UfNPSQ"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+					</li>
+			        <li>
+			            <a href="https://github.com/rocksdanister"><i class="fab fa-github" aria-hidden="true"></i></a>
+			        </li>
+					<li>
+						<a href="https://twitter.com/rocksdanister?s=17"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fab fa-discord" aria-hidden="true"></i></a>
+					</li>
+
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" >
+
+
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>
+                    <i>rePaper</i> <br>
+                </h1>
+                 <h3><i>Dynamic Windows Desktop based on weather & time</i></h3>
+
+                <div class="home-content__buttons">
+                    <a href="#contact" class="smoothscroll btn btn--stroke">
+                        Download
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        About
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+			<li>
+				<a href="https://www.youtube.com/channel/UClep84ofxC41H8-R9UfNPSQ"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+			</li>
+            <li>
+                <a href="https://github.com/rocksdanister"><i class="fab fa-github" aria-hidden="true"></i></a>
+            </li>
+			<li>
+				<a href="https://twitter.com/rocksdanister?s=17"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			</li>
+			<li>
+				<a href="#"><i class="fab fa-discord" aria-hidden="true"></i></a>
+			</li>
+
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Your Desktop</h3>
+                <h1 class="display-1 display-1--light">A window to the the outside world..</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+           <div class="col-full"> 
+                <i>Try to imagine your desktop as a window, as it rains outside you see water droplets dripping down.. as it snows you see it get frosted.. as time changes the scenery also changes.
+               	That's the idea behind this software; What started out as a simple idea, after many months of work I present to you rePaper.</i>
+                </p>
+           </div>  
+        </div> <!-- end about-desc -->
+
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">How is it?</h3>
+                <h1 class="display-2">These are some of the features..</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Video/Picture</h3>
+                    <p>
+                    	Set any picture or video (animated wallpaper) as desktop background. No pictures or videos are included, you can pick whatever you feel like!
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fas fa-power-off"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Silent when Busy</h3>
+                    <p> 
+                    	When running fullscreen applications or games rePaper will go to sleep, you will not lose any performance whether you work or play.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fas fa-tools"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h2">Customizable</h3>
+                    <p>
+                    	Live in an area where it won't rain much? Like to use rainmeter skins instead?.. Everything is customisable, play custom whether effect from a choice of 20+ presets, run rainmeter skins ontop..
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="service-text">
+                     <h3 class="h2">Dark Mode</h3>
+                    <p>
+                    	Toggle windows 10 Darkmode automatically at night, Wallpaper will also change based on time.. getting darker at night, brigher during day, orange during sunset.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="fas fa-tachometer-alt"></i>
+                </div>
+                <div class="service-text">
+                     <h3 class="h2">Performance</h3>
+                    <p>
+                    	Optimised for best possible performance.. hardware accelerated video playback, optimised gpu shaders, async operations wherever possible.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                	<i class="fas fa-desktop"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Ultrawide Support</h3>
+                    <p>
+                    	Ultrawide resolutions are supported, multimonitor support is planned.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id='works' class="s-works">
+
+        <div class="intro-wrap">
+                
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Check it out</h3>
+                    <h1 class="display-2 display-2--light">Here are some screenshots..</h1>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/preview/1.jpg" class="thumb-link" title="Shutterbug" data-size="2560x1440">
+                                    <img src="images/preview/1_1x.jpg" 
+                                         srcset="images/preview/1_1x.jpg 1x, images/preview/1_2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Desktop
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Draws behind icons
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Effects appear behind icons, hide icons in windows if thats your preference.</p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/preview/6.jpg" class="thumb-link" title="Woodcraft" data-size="2560x1440">
+                                    <img src="images/preview/6_1x.jpg" 
+                                         srcset="images/preview/6_1x.jpg 1x, images/preview/6_2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    UI Color
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Color of text adapts to wallpaper
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Based on picture used, the ui text can change. </p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/preview/2.jpg" class="thumb-link" title="The Beetle Car" data-size="2560x1440">
+                                    <img src="images/preview/2_1x.jpg"
+                                         srcset="images/preview/2_1x.jpg 1x, images/preview/2_2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Many Effects
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Rain, Snow, Fog, Mist, Thunder..
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Adapts to location.</p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick --> 
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/preview/5.jpg" class="thumb-link" title="Palmeira" data-size="2560x1440">
+                                    <img src="images/preview/5_1x.jpg"
+                                         srcset="images/preview/5_1x.jpg 1x, images/preview/5_2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Custom Effect
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Play a custom weather effect ignoring location.
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Play a weather effect of your chosing.</p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+        </div> <!-- end works-content -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">download</h3>
+                <h1 class="display-2 display-2--light">Get it now..</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+            
+            <div class="contact-primary">
+				<h7>Windows 10 (64bit)</h7>
+			<form action="https://github.com/rocksdanister/rePaper"  method="get" target="_blank" >
+				<button class=" btn--primary">   Download (coming soon)  </button>
+			</form>
+
+            <div class="cinfo">
+                <h5>System Requirement</h5>
+                <p>
+                    OS: Windows 10 64bit </br>
+					Processor: Intel i3 or equivalent </br>
+					Memory: 2048 MB RAM </br>
+					Graphics: HD Graphics 4600 or above </br>
+					DirectX: Version 11 </br>
+					Storage: 512 MB available space </br>
+                </p>
+            </div>
+
+
+        <!--
+
+        <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+				
+				
+
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+
+
+        -->
+
+            </div> 
+			
+            <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+					<div class="cinfo">
+					    <h5>Rocksdanister </h5>
+					    <p>
+					        Just a CS major who likes doing unconventional things under a pseudonym he came up with in elementary school.
+					    </p>
+					</div>
+
+                    <div class="cinfo">
+                        <h5>Email</h5>
+                        <p>
+                            awoo.git@gmail.com<br>
+                        </p>
+                    </div>                  
+
+                    <ul class="contact-social">
+						<li>
+							<a href="https://www.youtube.com/channel/UClep84ofxC41H8-R9UfNPSQ"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+						</li>
+                        <li>
+                            <a href="https://github.com/rocksdanister"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </li>
+						<li>
+							<a href="https://twitter.com/rocksdanister?s=17"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a href="#"><i class="fab fa-discord" aria-hidden="true"></i></a>
+						</li>
+
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+<!--
+        <div class="row footer-main">
+
+            <div class="col-six tab-full left footer-desc">
+
+                <div class="footer-logo"></div>
+                Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
+
+            </div>
+        -->
+
+<!--
+            <div class="col-six tab-full right footer-subscribe">
+
+                <h4>Get Notified</h4>
+                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+
+                <div class="subscribe-form">
+                    <form id="mc-form" class="group" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
+                        <label for="mc-email" class="subscribe-message"></label>
+                    </form>
+                </div>
+
+            </div>
+        
+
+        </div> 
+		-->
+        <!-- end footer-main -->
+        
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Glint 2017</span> 
+                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
+<video width="100%" height="100%" playsinline autoplay muted loop style=" object-fit: cover; position: fixed; right: 0; bottom: 0;min-width: 100%;min-height: 100%;width: auto; height: auto; z-index: -100;" src='video/banner.mp4'/>
+</body>
+
+</html>
