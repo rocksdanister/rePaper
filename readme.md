@@ -32,7 +32,9 @@ When running fullscreen applications or games rePaper will go to sleep (~0% cpu 
 [direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.2/rePaper.zip
 
 
-Unzip the file, select Start.exe to get started. First run will be slow since the application is unsigned windows defender will do multiple scans, make sure to uncheck "always ask before opening this file".
+Unzip the file, select Start.exe to get started. First run will be slow.
+
+To update application, just delete the folder and extract the new zip.
 
 To update the program, just delete the old folder & extract the new version; Run it once to fix the new startup path if run at startup enabled.
 
