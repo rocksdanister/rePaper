@@ -25,11 +25,11 @@ Thats the idea behind this software; What started out as a simple idea, after ma
 When running fullscreen applications or games rePaper will go to sleep (~0% cpu & gpu usage); no performance cost.
 
 ## Download
-##### Latest version: v0.1 (Windows 10, 8.1, 7)
+##### Latest version: v0.2 (Windows 10, 8.1, 7)
 - [`rePaper.zip`][direct-win64]  
-   _(SHA-256: 7c9e8506c98cb003628c427f9f257b6f474a77c84b1575771b3b69db213f2404)_
+   _(SHA-256: 02f2bc032a8d806eae523749b6993c1eb68821af35d1a151305857284aad5a22)_
 
-[direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.1/rePaper.zip
+[direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.2/rePaper.zip
 
 
 Unzip the file, select Start.exe to get started. First run will be slow since the application is unsigned windows defender will do multiple scans, make sure to uncheck "always ask before opening this file".
