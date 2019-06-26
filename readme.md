@@ -36,7 +36,7 @@ Unzip the file, select Start.exe to get started. First run will be slow.
 
 To update application, just delete the folder and extract the new zip.
 
-To update the program, just delete the old folder & extract the new version; Run it once to fix the new startup path if run at startup enabled.
+**Note:** Certain antivirus software may detect some processes of this application as virus. So far AVG has been reported as flagging  rePaper as IDP.ALEXA.51 ; this is a false positive, similar to the case of Attila, Rome II, Warhammer II etc. <a href="https://sensorstechforum.com/what-is-idp-alexa-51-and-should-you-remove-it/">Source</a>
 
 Save files & settings are stored in <username>\Saved Games\rePaper.
 
