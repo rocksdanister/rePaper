@@ -27,7 +27,7 @@ When running fullscreen applications or games rePaper will go to sleep (~0% cpu 
 ## Download
 ##### Latest version: v0.3 (Windows 10, 8.1, 7)
 - [`rePaper.zip`][direct-win64]  
-   _(SHA-256: 02f2bc032a8d806eae523749b6993c1eb68821af35d1a151305857284aad5a22)_
+   _(SHA-256: e13b7944698fe1111048a4f94a3342f440be10a22f36f90111e5f9d3ce4d4ae9)_
 
 [direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.3/rePaper.zip
 
