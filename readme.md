@@ -25,11 +25,11 @@ Thats the idea behind this software; What started out as a simple idea, after ma
 When running fullscreen applications or games rePaper will go to sleep (~0% cpu & gpu usage); no performance cost.
 
 ## Download
-##### Latest version: v0.2 (Windows 10, 8.1, 7)
+##### Latest version: v0.3 (Windows 10, 8.1, 7)
 - [`rePaper.zip`][direct-win64]  
    _(SHA-256: 02f2bc032a8d806eae523749b6993c1eb68821af35d1a151305857284aad5a22)_
 
-[direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.2/rePaper.zip
+[direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.3/rePaper.zip
 
 
 Unzip the file, select Start.exe to get started. First run will be slow.
@@ -56,6 +56,7 @@ Save files & settings are stored in <username>\Saved Games\rePaper.
 * Customizable -  adjustable performance settings (fps, blur quality) , custom UI color, different clock styles & more.
 * Appears behind desktop icons.
 * Brightness change based on time of day & weather - less bright when clowdy, raining.
+* Can be used alongside Rainmeter.
 * Runs at system startup (optional).
 
 ## Screenshots
