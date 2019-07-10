@@ -25,23 +25,28 @@ Thats the idea behind this software; What started out as a simple idea, after ma
 When running fullscreen applications or games rePaper will go to sleep (~0% cpu & gpu usage); no performance cost.
 
 ## Download
-##### Latest version: v0.3 (Windows 10, 8.1, 7)
+##### Latest version: v0.4 (Windows 10, 8.1, 7)
 - [`rePaper.zip`][direct-win64]  
-   _(SHA-256: e13b7944698fe1111048a4f94a3342f440be10a22f36f90111e5f9d3ce4d4ae9)_
+   _(SHA-256: 5ac5fe83492aed4ebdfdbaccd019eff22cfe627643da340e1b4f5afca030b244)_
 
-[direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.3/rePaper.zip
-
+[direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.4/rePaper.zip
 
 Unzip the file, select Start.exe to get started. First run will be slow.
 
 To update application, just delete the folder and extract the new zip.
+
+What's new v0.4:
+* Weather effects are user customisable now.
+* Additional 4 weather presets(2 rain, 2 atmosphere) added for user customisation.
+* Application rule: Set specific rePaper sleep rules based on running application. "Application Rules" tab in settings (some defaults included).
+* Debugging mode is now available.
+* Double clicking trayicon launches settings.
 
 **Note:** Certain antivirus software may detect some processes of this application as virus. So far AVG has been reported as flagging  rePaper as IDP.ALEXA.51 ; this is a false positive, similar to the case of Attila, Rome II, Warhammer II etc. <a href="https://sensorstechforum.com/what-is-idp-alexa-51-and-should-you-remove-it/">Source</a>
 
 Save files & settings are stored in <username>\Saved Games\rePaper.
 
 ## Features
-
 * Video file as wallpaper support (Hardware Accelerated Playback optional)
 * Most of the processing is done via gpu shaders, low cpu usage.
 * Openweathermap API used to gather weather information. 
