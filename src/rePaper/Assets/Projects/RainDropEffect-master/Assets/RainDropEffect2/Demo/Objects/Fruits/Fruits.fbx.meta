@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 8cd134f811324ab48972912e43ac1657
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Apple0
+    100002: Apple1
+    100004: Apple2
+    100006: Apple3
+    100008: Apple4
+    100010: Basket
+    100012: Basket_MeshPart0
+    100014: Basket_MeshPart1
+    100016: Grape
+    100018: Grape_MeshPart0
+    100020: Grape_MeshPart1
+    100022: Grape_MeshPart2
+    100024: Leaf0
+    100026: Leaf1
+    100028: Picture
+    100030: Pot0
+    100032: Pot1
+    100034: //RootNode
+    100036: Watermellon
+    400000: Apple0
+    400002: Apple1
+    400004: Apple2
+    400006: Apple3
+    400008: Apple4
+    400010: Basket
+    400012: Basket_MeshPart0
+    400014: Basket_MeshPart1
+    400016: Grape
+    400018: Grape_MeshPart0
+    400020: Grape_MeshPart1
+    400022: Grape_MeshPart2
+    400024: Leaf0
+    400026: Leaf1
+    400028: Picture
+    400030: Pot0
+    400032: Pot1
+    400034: //RootNode
+    400036: Watermellon
+    2300000: Apple0
+    2300002: Apple1
+    2300004: Apple2
+    2300006: Apple3
+    2300008: Apple4
+    2300010: Basket_MeshPart0
+    2300012: Basket_MeshPart1
+    2300014: Grape_MeshPart0
+    2300016: Grape_MeshPart1
+    2300018: Grape_MeshPart2
+    2300020: Leaf0
+    2300022: Leaf1
+    2300024: Picture
+    2300026: Pot0
+    2300028: Pot1
+    2300030: Watermellon
+    3300000: Apple0
+    3300002: Apple1
+    3300004: Apple2
+    3300006: Apple3
+    3300008: Apple4
+    3300010: Basket_MeshPart0
+    3300012: Basket_MeshPart1
+    3300014: Grape_MeshPart0
+    3300016: Grape_MeshPart1
+    3300018: Grape_MeshPart2
+    3300020: Leaf0
+    3300022: Leaf1
+    3300024: Picture
+    3300026: Pot0
+    3300028: Pot1
+    3300030: Watermellon
+    4300000: Apple4
+    4300002: Pot1
+    4300004: Picture
+    4300006: Pot0
+    4300008: Apple0
+    4300010: Basket_MeshPart0
+    4300012: Basket_MeshPart1
+    4300014: Leaf1
+    4300016: Apple3
+    4300018: Apple2
+    4300020: Apple1
+    4300022: Leaf0
+    4300024: Grape_MeshPart0
+    4300026: Grape_MeshPart1
+    4300028: Grape_MeshPart2
+    4300030: Watermellon
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 1686b1f14ac280f43b0dde9d3750c7ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: a3323c2b5a2a1460a9c9cf451759a823, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: f49a35915519a4364b795c31508a1bf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: f180bdba97ac8444481b83c0f6d9c000, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: eccdd06295be4406b902a6f71bfc5786, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: fc703014cea8e4be08d762e8307a8248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: 93b146b0f43d64c2c8c7a2f55a025457, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: dc6f1fac48bb649a5b163091ada7e72f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,186 @@
+rePaper is licensed under GPL-3 :-https://github.com/rocksdanister/rePaper/blob/master/LICENSE
+
+Licenses of libraries/projects used:-
+
+RainDropEffect: https://github.com/EdoFrank/RainDropEffect
+MIT License: https://github.com/EdoFrank/RainDropEffect/blob/master/LICENSE
+
+Copyright (c) 2017 Gaku Morio
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*******************************************************************************************
+
+Heartfelt Shader: https://www.shadertoy.com/view/ltffzl
+CC BY-NC-SA License: https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
+
+Copyright (c) Martijn Steinrucken 
+twitter: https://twitter.com/The_ArtOfCode
+youtube: https://www.youtube.com/channel/UCcAlTqd9zID6aNX3TzwxJXg
+
+This is a human-readable summary of the Legal Code.
+You are free:
+    to Share - to copy, distribute and transmit the work
+    to Remix - to adapt the work
+
+Under the following conditions:
+    Attribution - You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+
+    Noncommercial - You may not use this work for commercial purposes.
+
+    Share Alike - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
+With the understanding that:
+
+    Waiver - Any of the above conditions can be waived if you get permission from the copyright holder.
+    Public Domain - Where the work or any of its elements is in the public domain under applicable law, that status is in no way affected by the license.
+    Other Rights - In no way are any of the following rights affected by the license:
+        Your fair dealing or fair use rights, or other applicable copyright exceptions and limitations;
+        The author's moral rights;
+        Rights other persons may have either in the work itself or in how the work is used, such as publicity or privacy rights.
+    Notice - For any reuse or distribution, you must make clear to others the license terms of this work. The best way to do this is with a link to this web page.
+*******************************************************************************************
+
+Merriweather Font: https://www.fontsquirrel.com/fonts/merriweather
+SIL Open Font License v1.10: https://www.fontsquirrel.com/license/merriweather
+Copyright 2016 The Merriweather Project Authors (https://github.com/EbenSorkin/Merriweather), with Reserved Font Name “Merriweather”.
+------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+------------------------------
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
+The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
+DEFINITIONS
+“Font Software” refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+“Reserved Font Name” refers to any names specified as such after the copyright statement(s).
+“Original Version” refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+“Modified Version” refers to any derivative made by adding to, deleting, or substituting-in part or in whole-any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+“Author” refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
+1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.
+2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
+3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.
+5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.
+TERMINATION
+This license becomes null and void if any of the above conditions are not met.
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+*******************************************************************************************
+
+Weather-icons: https://github.com/erikflowers/weather-icons
+SIL Open Font License v1.1: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+The icon designs are originally by Lukas Bischoff (http://www.twitter.com/artill). Icon art for v1.1 forward, HTML, Less, and CSS are by Erik Flowers. 
+------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+------------------------------
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.
+The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
+DEFINITIONS
+“Font Software” refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+“Reserved Font Name” refers to any names specified as such after the copyright statement(s).
+“Original Version” refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+“Modified Version” refers to any derivative made by adding to, deleting, or substituting-in part or in whole-any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+“Author” refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
+1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.
+2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.
+3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.
+5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.
+TERMINATION
+This license becomes null and void if any of the above conditions are not met.
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+*******************************************************************************************
+
+Octokit.net: https://github.com/octokit/octokit.net
+MIT License: https://github.com/octokit/octokit.net/blob/master/LICENSE.txt
+
+Copyright (c) 2017 GitHub, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of 
+this software and associated documentation files (the "Software"), to deal in 
+the Software without restriction, including without limitation the rights to 
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all 
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER 
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*******************************************************************************************
+
+Free Weather API: https://openweathermap.org/
+CC-BY-SA-4.0: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+You are free to:
+Share - copy and redistribute the material in any medium or format
+Adapt - remix, transform, and build upon the material
+for any purpose, even commercially.
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+Under the following terms:
+Attribution - You must give appropriate credit, provide a link to the OpenWeatherMap.org, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+ShareAlike - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+No additional restrictions - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
+No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+*******************************************************************************************
+
+Simple 2d Fog: https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/simple-2d-fog-storm-smoke-115617
+Copyright (c) AKILLI MUM https://assetstore.unity.com/publishers/14806
+*******************************************************************************************
+
+SimpleJSON: https://github.com/Bunny83/SimpleJSON
+MIT License: https://github.com/Bunny83/SimpleJSON/blob/master/LICENSE
+
+Copyright (c) 2012-2017 Markus Göbel (Bunny83)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*******************************************************************************************
+
+Hardware-Accelerated Video Decode: https://software.intel.com/en-us/articles/hardware-accelerated-video-decode-in-unity
+
+Copyright (c) Intel Corporation
+
+No license (express or implied, by estoppel or otherwise) to any intellectual property rights is granted by this document. Intel disclaims all express and implied warranties, including without limitation, the implied warranties of merchantability, fitness for a particular purpose, and non-infringement, as well as any warranty arising from course of performance, course of dealing, or usage in trade. This document contains information on products, services and/or processes in development. All information provided here is subject to change without notice. Contact your Intel representative to obtain the latest forecast, schedule, specifications and roadmaps. The products and services described may contain defects or errors known as errata which may cause deviations from published specifications. Current characterized errata are available on request.
+Intel and the Intel logo are trademarks of Intel Corporation in the U.S. and/or other countries. 
+Microsoft, Windows, and the Windows logo are trademarks, or registered trademarks of Microsoft Corporation in the United States and/or other countries. *Other names and brands may be claimed as the property of others.

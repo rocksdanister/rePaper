@@ -1,0 +1,67 @@
+
+Question:
+Why do i get errors like this:
+
+    "Assets/Plugins/SimpleJSON.cs(373,50): error CS0246: The type or namespace name `ICSharpCode' could not be found. Are you missing a using directive or an assembly reference?"
+    "Assets/Plugins/SimpleJSON.cs(487,39): error CS0246: The type or namespace name `ICSharpCode' could not be found. Are you missing a using directive or an assembly reference?"
+    "Assets/Plugins/SimpleJSON.cs(488,32): error CS1502: The best overloaded method match for `SimpleJSON.JSONNode.LoadFromStream(System.IO.Stream)' has some invalid arguments"
+    "Assets/Plugins/SimpleJSON.cs(488,32): error CS1503: Argument `#1' cannot convert `object' expression to type `System.IO.Stream'"
+
+
+Answer:
+You compiled the SimpleJSON.cs file with the USE_SharpZipLib option which tells the compiler to include extra code from an external assembly called "ICSharpCode.SharpZipLib.dll". This assembly is needed to use compression.
+
+To fix this you either have to:
+
+ - get the SharpZipLib ( http://www.icsharpcode.net/opensource/sharpziplib/ ) and place it next to the SimpleJSON.cs file.
+ - or comment out the first line in the SimpleJSON.cs file which contains "#define USE_SharpZipLib".
+
+If you remove or comment out the define of "USE_SharpZipLib" you can no longer use the "compressed" load and save functions:
+
+    SaveToCompressedStream()
+    SaveToCompressedFile()
+    SaveToCompressedBase64()
+
+    LoadFromCompressedStream()
+    LoadFromCompressedFile()
+    LoadFromCompressedBase64()
+
+In this case you don't need the SharpZipLib.
+
+
+-------------------
+
+Question:
+Why do i get errors like this:
+
+    "Exception: Can't use compressed functions. You need include the SharpZipLib and uncomment the define at the top of SimpleJSON"
+
+Answer:
+
+You tried to use the compressed load or save functions but the SimpleJSON.cs has been compiled without the "USE_SharpZipLib" define at the top.
+
+To fix this you have to
+
+ - get the SharpZipLib ( http://www.icsharpcode.net/opensource/sharpziplib/ ).
+ - place the "ICSharpCode.SharpZipLib.dll" next to the "SimpleJSON.cs" file.
+ - make sure the SimpleJSON.cs has a define at the top that looks like this: #define USE_SharpZipLib
+
+
+-------------------
+
+Question:
+
+Why do i get errors like this:
+
+    "JSON Parse: Too many closing brackets"
+    "JSON Parse: Quotation marks seems to be messed up"
+
+Answer:
+
+You passed a malformed JSON string to JSON.Parse() or JSONNode.Parse(). The parser only has basic error checks implemented. If you see one of this exceptions your JSON really has to be messed up.
+
+To fix those problems just copy the string you tried to parse and paste it on http://jsonlint.com/ and press Validate to see where your string is messed up.
+
+If you think you're sure that your JSON is valid, please check the RFC http://tools.ietf.org/html/rfc4627 . The parser should be able to parse any valid JSON string into a tree-structure.
+
+Note: The JSON string generation doesn't follow the rfc rules since the parser treats all values as strings. That means the recreation of a JSON string from a tree structure doesn't have to match the original string.
