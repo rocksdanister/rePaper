@@ -29,7 +29,7 @@ _Check out my other Project <a href="https://github.com/rocksdanister/lively/">L
 ## Download
 ##### Latest version: v0.5 (Windows 10, 8.1, 7)
 - [`rePaper.zip`][direct-win64]  
-   _(SHA-256: e29ca935f099f5a3352045d3507c602d64c10a4a1bcd7861da05bd38edf5f763)_
+   _(6287565437f1479c3315c3df75d43b848289293c82d86de789008ce950592a49)_
 
 [direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.5/rePaper.zip
 
