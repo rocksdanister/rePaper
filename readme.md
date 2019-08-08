@@ -27,11 +27,11 @@ When running fullscreen applications or games rePaper will go to sleep (~0% cpu 
 
 _Check out my other Project <a href="https://github.com/rocksdanister/lively/">Lively</a> for a general purpose wallpaper system._
 ## Download
-##### Latest version: v0.5 (Windows 10, 8.1, 7)
+##### Latest version: v0.5.1 (Windows 10, 8.1, 7)
 - [`rePaper.zip`][direct-win64]  
    _(6287565437f1479c3315c3df75d43b848289293c82d86de789008ce950592a49)_
 
-[direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.5/rePaper.zip
+[direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.5.1/rePaper.zip
 
 Unzip the file, select Start.exe to get started. First run will be slow.
 
