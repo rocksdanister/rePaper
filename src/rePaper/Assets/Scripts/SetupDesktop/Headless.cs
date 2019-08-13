@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Threading;
 using Debug = UnityEngine.Debug;
 using System.Collections;
-
+using Screen = System.Windows.Forms.Screen;
 /*
 References:
 https://www.codeproject.com/Articles/856020/Draw-Behind-Desktop-Icons-in-Windows-plus
@@ -189,7 +189,7 @@ public class Headless : MonoBehaviour {
         }
 
         if (MenuController.menuController.isMultiMonitor == false)
-            StaticPinvoke.SetWindowPos(handle, 1, 0, 0, Screen.currentResolution.width, Screen.currentResolution.height, 0);
+            StaticPinvoke.SetWindowPos(handle, 1, 0, 0, UnityEngine.Screen.currentResolution.width, UnityEngine.Screen.currentResolution.height, 0);
         else //multiple monitors detected.  
         {
             /*
@@ -198,8 +198,9 @@ public class Headless : MonoBehaviour {
             StaticPinvoke.SetWindowPos(handle, 1, monitor.Left, monitor.Top, monitor.Width,monitor.Height, 0);
             */
 
-            // Currently user has to manually enter the offsets & resolution using external offset application.
-            StaticPinvoke.SetWindowPos(handle, 1, MenuController.menuController.monitor.xoff, MenuController.menuController.monitor.yoff, MenuController.menuController.monitor.xres, MenuController.menuController.monitor.yres, 0);
+            //Success, basically offset value of desktop handle needs to be added to x,y
+            //todo:- update pause/sleep algorithm for multiple displays. ( currently based on primary display)
+            MoveToDisplay(MenuController.menuController.userSettings.ivar2);
         }
         
         //os = SystemInfo.operatingSystem.ToLowerInvariant(); //unity operating system info.
@@ -231,6 +232,39 @@ public class Headless : MonoBehaviour {
 
         hWnd = workerWOrig; // bug fix: early launch, might detect application as hWndID.
         #endregion pause_unpause_monitor
+    }
+
+    const int SPIF_UPDATEINIFILE = 0x01;
+    private const UInt32 SPI_SETDESKWALLPAPER = 0x14;
+    /// <summary>
+    /// Move rePaper to corresponding display.
+    /// </summary>
+    public void MoveToDisplay(int i )
+    {
+        StaticPinvoke.RECT appBounds_;
+        Rectangle screenBounds_;
+
+        Screen[] screens = Screen.AllScreens;
+
+        if (i > (screens.Length - 1))
+            i = 0; //primary monitor
+
+        StaticPinvoke.GetWindowRect(workerw, out appBounds_);
+        screenBounds_ = System.Windows.Forms.Screen.FromHandle(workerw).Bounds;
+        //force refresh desktop
+        StaticPinvoke.SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, null,SPIF_UPDATEINIFILE);
+
+        if (i == -1)
+        {
+            //crash, skipping for now.
+            //StaticPinvoke.SetWindowPos(old_unity_handle, 1, appBounds_.Left, appBounds_.Top, screens[i].Bounds.Width, screens[i].Bounds.Height, 0);
+        }
+        else
+        {
+            // adding the workerw offsets to x & y. (basically the bounds change since rePaper is a child of workerw handle)
+            StaticPinvoke.SetWindowPos(old_unity_handle, 1, screens[i].Bounds.X - appBounds_.Left, screens[i].Bounds.Y - appBounds_.Top, screens[i].Bounds.Width, screens[i].Bounds.Height, 0);
+        }
+
     }
 
     /// <summary>

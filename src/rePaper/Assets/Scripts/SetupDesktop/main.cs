@@ -32,6 +32,7 @@ public class main : MonoBehaviour {
 
     //..menuitems variables
     MenuItem[] weathers = new MenuItem[22];
+    MenuItem displaySetup;
     public MenuItem startup;
     public MenuItem video;
     public MenuItem update;
@@ -119,10 +120,26 @@ public class main : MonoBehaviour {
             tray.trayMenu.MenuItems.Add(video);
             tray.trayMenu.MenuItems.Add("-");
 
+            //trying stuff
+            displaySetup = new MenuItem("Select Display");
+            int i = 0;
+            //displaySetup.MenuItems.Add("Span", new EventHandler(UserDisplayMenu));
+            foreach (var item in System.Windows.Forms.Screen.AllScreens)
+            {
+                displaySetup.MenuItems.Add("Display " + i.ToString(), new EventHandler(UserDisplayMenu));
+                i++;
+            }
+
+            tray.trayMenu.MenuItems.Add(displaySetup);
+            if (MenuController.menuController.isMultiMonitor == false)
+                displaySetup.Enabled = false;
+
+            /*
             MenuItem displaySetup = new MenuItem("Multimonitor", new EventHandler(DisplayBtn));
             tray.trayMenu.MenuItems.Add(displaySetup);
             if (MenuController.menuController.isMultiMonitor == false)
                 displaySetup.Enabled = false;
+            */
 
             startup = new MenuItem("Run at Startup", new EventHandler(System_Startup_Btn));
             tray.trayMenu.MenuItems.Add(startup);
@@ -177,14 +194,76 @@ public class main : MonoBehaviour {
             ClockCheckMark();
             ColorCheckMark();
             //CheckStartupRegistry();
+            //Events not working... unity intercepting them!
             //SystemEvents.PowerModeChanged += new PowerModeChangedEventHandler(OnPowerChange);
+            //SystemEvents.DisplaySettingsChanged += SystemEvents_DisplaySettingsChanged;
 
         }
     }
 
+    #region multimoniotr_menu
+
+    private void SystemEvents_DisplaySettingsChanged(object sender, EventArgs e)
+    {
+        UpdateTrayMenuDisplay();
+        MoveToDisplay(0);
+    }
+
+    //future use.
+    void UpdateTrayMenuDisplay()
+    {
+        displaySetup.MenuItems.Clear();
+        System.Windows.Forms.Screen[] screens = System.Windows.Forms.Screen.AllScreens;
+        int i = 0;
+        //displaySetup.MenuItems.Add("Span", new EventHandler(UserDisplayMenu));
+        foreach (var item in screens)
+        {
+            displaySetup.MenuItems.Add("Display " + i.ToString(), new EventHandler(UserDisplayMenu));
+            i++;
+        }
+
+        if (screens.Length > 1)
+            displaySetup.Enabled = true;
+        else
+            displaySetup.Enabled = false;
+    }
+
+    private void UserDisplayMenu(object sender, EventArgs e)
+    {
+        int i = 0; 
+        string s = (sender as MenuItem).Text;
+        /*
+        if (s == "Span")
+        {
+            MoveToDisplay(-1);
+            return;
+        }
+        */
+
+        foreach (var item in System.Windows.Forms.Screen.AllScreens)
+        {
+            if (s == "Display " + i.ToString())
+            {
+                MoveToDisplay(i);
+                MenuController.menuController.userSettings.ivar2 = i;
+                MenuController.menuController.Save();
+                break;
+            }
+            i++;
+        }
+    }
+
+    void MoveToDisplay(int i)
+    {
+        var obj = GameObject.Find("SetupDesktop").GetComponent<Headless>();
+        if(obj != null)
+            obj.MoveToDisplay(i);
+    }
+
+    #endregion
     //unity might be intercepting the messages or windows fked up, todo:- have to find a solution
     #region power_suspend_resume_UNUSED
-        void OnPowerChange(System.Object sender, PowerModeChangedEventArgs e)
+    void OnPowerChange(System.Object sender, PowerModeChangedEventArgs e)
         {
         Debug.Log("POWER CHANGE");
             switch (e.Mode)
@@ -581,6 +660,7 @@ public class main : MonoBehaviour {
     public void Close_Action(System.Object sender, System.EventArgs e)
     {
         //SystemEvents.PowerModeChanged -= OnPowerChange;
+        //SystemEvents.DisplaySettingsChanged -= SystemEvents_DisplaySettingsChanged;
 
         tray.Dispose();
         if (MenuController.menuController.userSettings.isDXVA == true && MenuController.menuController.userSettings.vidPath != null)

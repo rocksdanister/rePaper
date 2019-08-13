@@ -334,42 +334,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 930c9eb7e295f5143b4b3f719eab7307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKeyDefault: 32f9f5c44ab2cc69215f08625cde78cb
+  apiKeyDefault: abc123
   isFirstTime: 0
   wallpaperPath: 
   tmpCityName: 
   userUiColor: {r: 0, g: 0, b: 0, a: 0}
-  weather_tmp:
-    rain:
-    - code: 0
-      name: 
-      rainAmt: 0
-      drop1Amt: 0
-      drop2Amt: 0
-      staticDrpAmt: 0
-      dropSpeed: 0
-      zoomOut: 0
-      rainTex: 0
-      blurAmt: 0
-      rainTrail: 0
-      intervalMin: 0
-      intervalMax: 0
-      rate1: 0
-    - code: 0
-      name: 
-      rainAmt: 0
-      drop1Amt: 0
-      drop2Amt: 0
-      staticDrpAmt: 0
-      dropSpeed: 0
-      zoomOut: 0
-      rainTex: 0
-      blurAmt: 0
-      rainTrail: 0
-      intervalMin: 0
-      intervalMax: 0
-      rate1: 0
   WeatherParam:
+    rainVersion: 1
+    atmosphereVersion: 1
     rain:
     - code: 0
       name: 
@@ -399,18 +371,37 @@ MonoBehaviour:
       intervalMin: 0
       intervalMax: 0
       rate1: 0
+    atmosphere:
+    - code: 0
+      name: 
+      size: 0
+      horiSpeed: 0
+      vertSpeed: 0
+      density: 0
+      color: 
+    - code: 0
+      name: 
+      size: 0
+      horiSpeed: 0
+      vertSpeed: 0
+      density: 0
+      color: 
+    - code: 0
+      name: 
+      size: 0
+      horiSpeed: 0
+      vertSpeed: 0
+      density: 0
+      color: 
+    - code: 0
+      name: 
+      size: 0
+      horiSpeed: 0
+      vertSpeed: 0
+      density: 0
+      color: 
   weatherPollCnt: 0
   weather:
-    countryName: 
-    cityName: 
-    conditionID: 0
-    conditionName: 
-    temp: 0
-    windSpeed: 0
-    weatherUnit: 
-    sunrise: 0
-    sunset: 0
-  tmpWeather:
     countryName: 
     cityName: 
     conditionID: 0
@@ -426,103 +417,7 @@ MonoBehaviour:
     xoff: 0
     yoff: 0
     display_name: 
-  loadMonitorData:
-    xres: 0
-    yres: 0
-    xoff: 0
-    yoff: 0
-    display_name: 
   userSettings:
-    zipCode: 0
-    cityName: 
-    layout: 0
-    isDone: 0
-    isClock: 1
-    isPerformance: 1
-    isWeather: 1
-    clockType: 0
-    pollingDelay: 2
-    fps: 24
-    imgScaling: 0
-    isMetric: 1
-    isRestart: 0
-    apiKey: 32f9f5c44ab2cc69215f08625cde78cb
-    isReload: 0
-    autoUiHide: 1
-    dayNightTint: 1
-    autoUiColor: 1
-    runAtStartup: 0
-    sysColor: 0
-    isDXVA: 0
-    vidPath: 
-    isDemo: 0
-    userWeather: 800
-    uiColor: '#F8F8FF'
-    sun_overlay: 0
-    blur_quality: 1
-    isLightTheme: 0
-    appFocusPause: 0
-    bvar1: 0
-    bvar2: 0
-    bvar3: 0
-    bvar4: 0
-    bvar5: 0
-    svar1: 
-    svar2: 
-    svar3: 
-    svar4: 
-    svar5: 
-    ivar1: 0
-    ivar2: 0
-    ivar3: 0
-    ivar4: 0
-    ivar5: 0
-  loadData:
-    zipCode: 0
-    cityName: 
-    layout: 0
-    isDone: 0
-    isClock: 1
-    isPerformance: 1
-    isWeather: 1
-    clockType: 0
-    pollingDelay: 2
-    fps: 24
-    imgScaling: 0
-    isMetric: 1
-    isRestart: 0
-    apiKey: 32f9f5c44ab2cc69215f08625cde78cb
-    isReload: 0
-    autoUiHide: 1
-    dayNightTint: 1
-    autoUiColor: 1
-    runAtStartup: 0
-    sysColor: 0
-    isDXVA: 0
-    vidPath: 
-    isDemo: 0
-    userWeather: 800
-    uiColor: '#F8F8FF'
-    sun_overlay: 0
-    blur_quality: 1
-    isLightTheme: 0
-    appFocusPause: 0
-    bvar1: 0
-    bvar2: 0
-    bvar3: 0
-    bvar4: 0
-    bvar5: 0
-    svar1: 
-    svar2: 
-    svar3: 
-    svar4: 
-    svar5: 
-    ivar1: 0
-    ivar2: 0
-    ivar3: 0
-    ivar4: 0
-    ivar5: 0
-  defaultSettings:
     zipCode: 0
     cityName: 
     layout: 0

@@ -1496,7 +1496,7 @@ public class CycleScript : MonoBehaviour {
         if (MenuController.menuController.userSettings.isMetric == true)
         {
             if (MenuController.menuController.userSettings.apiKey == "default" || MenuController.menuController.userSettings.apiKey == "Default")
-                request = new WWW("https://api.openweathermap.org/data/2.5/weather?q=" + MenuController.menuController.userSettings.cityName + "&units=metric&appid=" + MenuController.menuController.apiKeyDefault); //32f9f5c44ab2cc69215f08625cde78cb"); 
+                request = new WWW("https://api.openweathermap.org/data/2.5/weather?q=" + MenuController.menuController.userSettings.cityName + "&units=metric&appid=" + MenuController.menuController.apiKeyDefault); 
             else
             {
                 //verify sanitize input first
@@ -1507,7 +1507,7 @@ public class CycleScript : MonoBehaviour {
         {
             if (MenuController.menuController.userSettings.apiKey == "default" || MenuController.menuController.userSettings.apiKey == "Default")
             {
-                request = new WWW("https://api.openweathermap.org/data/2.5/weather?q=" + MenuController.menuController.userSettings.cityName + "&units=imperial&appid=" + MenuController.menuController.apiKeyDefault); //32f9f5c44ab2cc69215f08625cde78cb");
+                request = new WWW("https://api.openweathermap.org/data/2.5/weather?q=" + MenuController.menuController.userSettings.cityName + "&units=imperial&appid=" + MenuController.menuController.apiKeyDefault); 
             }
             else
             {

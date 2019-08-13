@@ -236,7 +236,7 @@ public class MenuController : MonoBehaviour {
         public string svar5;
 
         public int ivar1; //blur intensity
-        public int ivar2;
+        public int ivar2; //selected display/monitor
         public int ivar3;
         public int ivar4;
         public int ivar5;
@@ -302,6 +302,7 @@ public class MenuController : MonoBehaviour {
     void Awake()
     {
         CheckMonitors(); //multimonitor warning firstime
+
         //.. Singleton design, only one instance
         if (menuController == null)
         {
@@ -364,10 +365,14 @@ public class MenuController : MonoBehaviour {
         if (UnityDisplay.displays.Length > 1)
         {
             isMultiMonitor = true; // to tell headless.cs to use offset setwindowpos() instead.
+            /*
             if (!File.Exists(System.Environment.ExpandEnvironmentVariables("%USERPROFILE%\\Saved Games\\rePaper\\") + "monitor.xml"))
             {
-                Error("Multiple monitors are in early stages of development.\nDepending on your setup wallpaper might appear on the wrongside, after launching the application select Multimonitor in Traymeny to adjust position & size.\nNote: Different DPI multimonitor not supported currently.\n'Try Again' to check again.\n'Continue' to Start,\n'Cancel' to Quit", "Warning: OPS.. Multiple monitors Detected");
+                Error("Multiple monitors are in early stages of development.\nDepending on your setup wallpaper might appear on the wrongside, " +
+                    "after launching the application select Multimonitor in Traymeny to adjust position & size." +
+                    "\nNote: Different DPI multimonitor not supported currently.\n'Try Again' to check again.\n'Continue' to Start,\n'Cancel' to Quit", "Warning: OPS.. Multiple monitors Detected");
             }
+            */
         }
         else
         {
