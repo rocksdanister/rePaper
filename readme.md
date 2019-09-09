@@ -17,7 +17,7 @@ rePaper - A window to the the outside world
 - [Support](#support)
 
 ## About
-![demo-gif](./resources/htmlbanner_gif.gif?raw=true "demo")
+[![repaper Demo](/resources/thumbnail.jpg)](https://www.youtube.com/watch?v=ojhjBrzmNjo "repaper")
 
 Try to imagine your desktop as a window, as it rains outside you see water droplets dripping down..as it snows you see it get frosted.. as sun rises & sets scenery changes realtime.
 
