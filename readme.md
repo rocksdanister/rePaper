@@ -30,7 +30,7 @@ _Check out my other Project <a href="https://github.com/rocksdanister/lively/">L
 > ### I'm not working on this project anymore. For support please use my new & better wallpaper software "Lively" instead: https://rocksdanister.github.io/lively
 ##### Latest version: v0.5.3 (Windows 10, 8.1, 7)
 - [`rePaper.zip`][direct-win64]  
-   _(SHA-256: deb31a8637f5c128c611cb9049445a4a0b3def72bbe274846f8a494cbfc2fb4f)_
+   _(SHA-256: d8c2e051fe2885d7b48201a390b98fc2f8c8e6cfaa50e9256352cbfeb1c64a49)_
 
 [direct-win64]: https://github.com/rocksdanister/rePaper/releases/download/v0.5.3/rePaper.zip
 
